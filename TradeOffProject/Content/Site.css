@@ -1,0 +1,188 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: rgb(137, 223, 210);
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+@media(max-width: 991px){
+    .thumbnail {
+        max-width: 300px;
+    }
+    .list-group {
+        min-width: 150px;
+    }
+}
+@media(max-width: 767px){
+    .thumbnail {
+        max-width: none;
+        text-align: center;
+    }
+    .list-group {
+        max-width: 150px;
+    }
+}
+
+/*index*/
+.navbar {
+    padding-top: 5px;
+}
+
+.brandColor {
+    color: rgb(137, 223, 210);
+    font-size: 25px;
+    padding-top: 0;
+    padding-bottom: 0;
+    vertical-align: middle;
+}
+
+/*.spacer {
+  clear: both;
+  height: 400px;
+}*/
+
+p.pageLinks{
+    text-align: center;
+}
+
+p.copyright {
+    margin: 20px 0;
+    text-align: center;
+}
+
+/*home*/
+
+#r1 {
+    margin-top:25px;
+}
+
+#username, #bannerframe{
+    padding-left: 5%;
+    padding-right: 5%;
+    min-height: 300px;
+}
+
+#form-end {
+    text-align: center;
+}
+
+/*#login #banner {
+    min-height: 400px;
+}*/
+
+/*#banner {
+    background-color: white;
+}*/
+
+#tagline {
+    font-family: 'Poiret One', cursive;
+    font-weight: 900;
+}
+
+.gallery {
+    background-color: white;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.thumbnail {
+    padding: 5%;
+}
+
+img {
+    max-height: 200px;
+    max-width: 200px;
+    overflow: hidden;
+}
+
+#ar1 {
+    margin-top:25px;
+}
+
+/*Register*/
+
+
+
+.vertical-center {
+    min-height: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.vertical-center .form-control {
+    max-width: 300px;
+    margin: 5px 0;
+}
+
+.vertical-center>h1 {
+    font-family: 'Poiret One', cursive;
+    font-weight: 900;
+    font-size: 55px;
+    text-align: center;
+}
+
+.logo {
+    color: white;
+    font-size: 50px;
+    vertical-align: bottom;
+}
+
+/*Gallery*/
+
+.thumb {
+    margin-bottom: 30px;
+}
+
+/*Add Trade Post*/
+
+.add-post {
+    background-color: beige;
+}
+
+#tp-description {
+    min-width: 300px;
+    min-height: 200px;
+}
+
+.img-post {
+    min-height: 180px;
+}
+
+/*About*/
+.tp-about {
+    padding: 3%;
+    font-family: 'Raleway', sans-serif;
+    max-width: 500px;
+}
+
+.tp-about>h5 {
+    font-size: 130%;
+}
+
+/* Content Styles */
+
+.content-header {
+    margin-top: 3%;
+}
+
+.content-body {
+    margin-bottom: 100px;
+}
